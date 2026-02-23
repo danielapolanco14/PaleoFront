@@ -21,15 +21,15 @@ const LandingPage = () => {
       <main className="max-w-6xl mx-auto px-6 py-12 pt-24">
         <div className="flex flex-col md:flex-row items-start gap-8 mb-16">
           {/* sobre nosotros*/}
-          {/* Sección Principal (Hero) */}
+          {/* Seccion principal */}
           <div className="flex flex-col md:flex-row items-start gap-12 mb-20 pt-10">
             <div className="flex-1">
-              {/* PALEO más grande y con más impacto */}
+              {/* PALEOs*/}
               <h1 className="text-8xl md:text-9xl font-paleo text-gray-900">
                 Paleos
               </h1>
 
-              {/* Contenedor más sutil (casi invisible, solo un toque de gris muy claro) */}
+              {/* Contenedor */}
               <div className="bg-gray-50/50 p-2 rounded-xl max-w-lg">
                 <h2 className="text-2xl font-bold mb-3 text-gray-800">
                   Información sobre nosotros
@@ -72,7 +72,7 @@ const LandingPage = () => {
             ))}
           </div>
 
-          {/* Indicador visual opcional (puntos) */}
+          {/* Indicador (puntos) */}
           <div className="flex justify-center gap-2 mt-4">
             {carouselItems.map((item) => (
               <div
